@@ -1,0 +1,70 @@
+
+/*POLICES*/
+@font-face {
+    font-family: 'theblacklist';
+    src : url('../fonts/theblacklist.ttf') format('truetype');
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+.titre {
+    font-family: 'theblacklist', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.sous-titre {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: linear-gradient(#FF2345, #F2D902);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titres {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.titres img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.section-flex ul {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.section-flex li {
+    display: flex;
+    margin: auto 10px;
+}
+
+.vline {
+    border-bottom: 2px solid #FAA390;
+    margin: auto;
+  }
