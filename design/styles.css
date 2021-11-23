@@ -62,9 +62,122 @@ header {
 .section-flex li {
     display: flex;
     margin: auto 10px;
+    cursor: pointer;
 }
 
 .vline {
-    border-bottom: 2px solid #FAA390;
+    border-bottom: 2px solid #FA8F77;
     margin: auto;
   }
+
+.section-text .welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.section-text .vans {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.section-img img {
+    border-bottom: 2px solid #FA8F77;
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.section-img p {
+    color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img
+.van1 img,
+.van2 img,
+.van3 img,
+.van4 img,
+.van5 img,
+.van6 img {
+    box-shadow: 0 2px 8px #898989;
+    border-radius: 15px;
+    border-bottom: 50px solid #FA8F77;
+}
+
+.section-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-contact {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    border: 1px solid #FA8F77
+}
+
+.footer {
+    background-color: #FA8F77;
+    border-bottom: 1px solid #FA8F77;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+}
+
+.footer p {
+    text-align: center;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
