@@ -17,10 +17,11 @@
     font-size: 24px;
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .sous-titre {
+    margin: 10px auto;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
@@ -36,6 +37,7 @@ header {
     justify-content: space-around;
 }
 
+
 .titres {
     display: flex;
     align-items: center;
@@ -45,7 +47,7 @@ header {
 
 .titres img {
     display: flex;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 .section-flex ul {
@@ -64,6 +66,11 @@ header {
     display: flex;
     margin: auto 10px;
     cursor: pointer;
+}
+
+.section-flex li a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .vline {
@@ -145,20 +152,20 @@ header {
     border-bottom: 50px solid #F16C79;
 }
 
-.van1,
+/* .van1,
 .van2,
 .van3,
 .van4,
 .van5,
 .van6 {
-}
+} */
 
 .section-contact {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .contact {
@@ -172,14 +179,17 @@ header {
 }
 
 .box-contact {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
     border-radius: 10px;
     border: 1px solid #F16C79;
 }
 
 .box-contact p {
-    margin: 30px 300px;
+    margin: 30px 200px;
 }
 
 
