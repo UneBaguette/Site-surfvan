@@ -160,6 +160,8 @@ header {
 .van4 img,
 .van5 img,
 .van6 img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     box-shadow: 0 2px 8px #898989;
 }
 
