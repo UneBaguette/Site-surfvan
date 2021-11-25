@@ -5,10 +5,14 @@
     src : url('../fonts/theblacklist.ttf') format('truetype');
 }
 
+/* On inclus tout de l'html */
+
 *, ::before, ::after {
     margin: 0;
     padding: 0;
 }
+
+/* Header, titre, sous-titre et le logo */
 
 
 .titre {
@@ -50,6 +54,8 @@ header {
     margin: 15px auto;
 }
 
+/* Boutons de navigations et la ligne à la fin */
+
 .section-flex ul {
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -76,12 +82,17 @@ header {
 .vline {
     border-bottom: 2px solid #FA8F77;
     margin: auto;
-  }
-  
-  .section-container {
-      font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
+/* DEBUT MAIN */
+  
+
+/* On inclus un font pour tout les éléments dans MAIN */
+.section-container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Le texte en début de page */
 .section-text .welcome {
     font-weight: 600;
     font-size: 16px;
@@ -106,6 +117,8 @@ header {
     justify-content: center;
 }
 
+/* La gallerie commence ICI */
+
 .section-img {
     position: relative;
     display: grid;
@@ -119,18 +132,18 @@ header {
 }
 
 .section-img img {
-    border-bottom: 2px solid #F16C79;
     height: 220px;
     width: 320px;
     object-fit: cover;
     display: flex;
     justify-content: center;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .section-img p {
     position: absolute;
     color: #FF0000;
+    font-size: 15px;
     font-weight: 500;
     padding: 0;
     margin: 20px auto;
@@ -148,8 +161,11 @@ header {
 .van5 img,
 .van6 img {
     box-shadow: 0 2px 8px #898989;
-    border-radius: 15px;
-    border-bottom: 50px solid #F16C79;
+}
+
+.van-text {
+    display: flex;
+    justify-content: center;
 }
 
 /* .van1,
@@ -159,6 +175,10 @@ header {
 .van5,
 .van6 {
 } */
+
+/* FIN DE LA GALLERIE */
+
+/* Section Contact en bas de page */
 
 .section-contact {
     display: flex;
@@ -192,6 +212,11 @@ header {
     margin: 30px 200px;
 }
 
+/* FIN Section Contact */
+
+/* FIN MAIN */
+
+/* FOOTER et le texte */
 
 .bar {
     background-color: #F16C79;
@@ -213,3 +238,5 @@ header {
     display: flex;
     justify-content: center;
 }
+
+/* FIN FOOTER */
